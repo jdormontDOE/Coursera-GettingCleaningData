@@ -98,5 +98,5 @@ head(str(dataTable), 6)
 
 ### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-sensor_averages = ddply(dataTable, c("subject","activityNum"), numcolwise(mean))
+sensor_averages = ddply(dataTable, c("subject","activityName"), numcolwise(mean))
 write.table(sensor_averages, file = "tidyData.txt")
