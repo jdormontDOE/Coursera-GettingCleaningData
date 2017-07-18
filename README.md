@@ -14,3 +14,5 @@ The R script runAnalysis.R does the following actions:
    variable for each subject and activity pair.
 
 The end result is shown in the file `tidy.txt`.
+
+NOTE: To use this script you will need to update your working directory found on line 29
